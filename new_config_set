@@ -1,5 +1,5 @@
 hostname Router2
-username minku privilege 15 password minku
+username new_user privilege 15 password new_password
 banner motd @***** WARNING *****@
 access-list 100 permit icmp any any
 access-list 100 permit tcp any any eq domain
