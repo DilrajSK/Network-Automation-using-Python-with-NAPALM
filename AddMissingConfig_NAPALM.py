@@ -7,7 +7,7 @@ device = driver ('192.168.122.3','dilraj','dilraj')
 device.open()
 
 print ('Accessing 192.168.133.3...')
-device.load_merge_candidate(filename='new_config_set')
+device.load_merge_candidate(filename='new_config_set.cfg')
 
 diff = device.compare_config()
 
