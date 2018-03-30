@@ -9,7 +9,6 @@ device_list=['192.168.122.2',
 for ipaddress in device_list:
     print ('Accessing ' + str(ipaddress))
 	driver = get_network_driver('ios')
-	driver = get_network_driver('ios')
 	device = driver(ipaddress,'dilraj','dilraj')
 	device.open()
 	
